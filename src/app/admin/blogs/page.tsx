@@ -92,7 +92,7 @@ const Admin = () => {
 
               <div className="flex items-center justify-between">
                 <button
-                  onClick={() => router.push(`/admin/blog/edit/${blog.slug}`)}
+                  onClick={() => router.push(`/admin/blogs/edit/${blog.id}`)}
                   className="px-4 py-2 bg-blue-600 text-white text-sm rounded-xl font-medium hover:bg-blue-700 transition"
                 >
                   Edit

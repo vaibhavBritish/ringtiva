@@ -1,0 +1,9 @@
+services:
+  marketcall:
+    container_name: marketcall
+    build: .
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - "3002:3000"

@@ -43,7 +43,7 @@ const AdminUsers = () => {
     }
   };
 
-  // Checking admin auth
+
   if (loading) {
     return (
       <div>
