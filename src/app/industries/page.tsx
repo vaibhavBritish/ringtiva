@@ -20,7 +20,7 @@ const Industries = () => {
 
                 <div className="absolute inset-0 max-w-7xl mx-auto px-6 flex flex-col justify-center text-white">
                     <h1 className="text-3xl md:text-5xl font-bold mb-4 drop-shadow-lg">
-                        Lead Generation with Marketcall
+                        Lead Generation with Ringtiva
                     </h1>
                     <p className="max-w-xl text-lg drop-shadow">
                         We attract high-quality Pay Per Call, CPL and CPA leads in a

@@ -16,7 +16,7 @@ const Subscribe = () => {
 
                     <h1 className="font-bold text-3xl">Get Private Affiliate Case Studies</h1>
                     <p className="text-gray-700">
-                        Learn all the secret strategies used by top-performing Marketcall affiliates.
+                        Learn all the secret strategies used by top-performing Ringtiva affiliates.
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">

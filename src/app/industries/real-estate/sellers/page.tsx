@@ -57,7 +57,7 @@ const Sellers = () => {
           </p>
 
           <p>
-        Marketcalls understand that sellers are the backbone of your business; we will help you generate highly-converting, and 100% exclusive seller leads that guarantee you a constant stream of homeowners who want to put their properties up for sale. What more, you will get these hot deals before the properties are listed in the marketplace. Sign up with us now to increase your revenue with high-intent inbound calls delivered directly to your phone.
+        Ringtivas understand that sellers are the backbone of your business; we will help you generate highly-converting, and 100% exclusive seller leads that guarantee you a constant stream of homeowners who want to put their properties up for sale. What more, you will get these hot deals before the properties are listed in the marketplace. Sign up with us now to increase your revenue with high-intent inbound calls delivered directly to your phone.
 
           </p>
         </div>
@@ -124,7 +124,7 @@ const Sellers = () => {
 
       <section className="max-w-5xl px-10 py-14 mx-auto bg-[#f4f6fb] rounded-xl">
         <h1 className="text-3xl font-bold text-blue-600">
-         Why you should buy sellers leads from Marketcall
+         Why you should buy sellers leads from Ringtiva
         </h1>
 
         <p className="text-gray-600 mt-4 text-lg leading-relaxed">

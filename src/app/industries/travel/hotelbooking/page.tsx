@@ -54,7 +54,7 @@ const Hotelbooking = () => {
         </p>
 
         <p>
-          Marketcall provides high-intent inbound calls from people actively looking for hot flight deals. We help you attract thousands of quality customers so you can stay focused on closing new clients and scaling your business.
+          Ringtiva provides high-intent inbound calls from people actively looking for hot flight deals. We help you attract thousands of quality customers so you can stay focused on closing new clients and scaling your business.
         </p>
       </section>
 
@@ -70,7 +70,7 @@ const Hotelbooking = () => {
             </p>
 
             <p>
-              At Marketcall, we provide qualified, exclusive, real-time inbound calls from prospects actively searching for hotel bookings. Focus on closing leads—we’ll handle the marketing.
+              At Ringtiva, we provide qualified, exclusive, real-time inbound calls from prospects actively searching for hotel bookings. Focus on closing leads—we’ll handle the marketing.
             </p>
           </div>
 

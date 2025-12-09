@@ -49,7 +49,7 @@ const Flightbooking = () => {
         <h1 className='font-bold text-3xl text-blue-600'>Real-time flight booking leads</h1>
         <p>The increasing use of search engines and social media platforms by travelers has changed the way airline companies and travel agents generate new businesses. Travel professionals are now trying to get their share of the online market through paid ads and organic SEO. However, the challenge these businesses are facing is that there are limited spaces on Google's top spots, and running Ads on Google, Facebook, and other platforms are becoming more expensive due to increasing demand. Also, you have to know how to target your desired audience before throwing money at ads.</p>
 
-        <p>Marketcalls provides high-intent inbound calls from people who are looking for hot flight deals. We'll help you attract thousands of quality customers so you can focus on closing new clients and growing your business. We take pride in our ability to generate real-time flight booking leads through Google AdWords, organic SEO, and targeted ads on Facebook, Snapchat, Instagram, Twitter, and more.</p>
+        <p>Ringtivas provides high-intent inbound calls from people who are looking for hot flight deals. We'll help you attract thousands of quality customers so you can focus on closing new clients and growing your business. We take pride in our ability to generate real-time flight booking leads through Google AdWords, organic SEO, and targeted ads on Facebook, Snapchat, Instagram, Twitter, and more.</p>
       </section>
 
       <section className='max-w-6xl mx-auto px-10 py-10 bg-[#F4F6FB] space-y-5 rounded-2xl mb-10'>

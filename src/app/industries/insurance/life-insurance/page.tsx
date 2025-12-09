@@ -52,7 +52,7 @@ const LifeInsurance = () => {
                 <div className='space-y-10 text-lg md:text-xl leading-relaxed'>
                     <h1>Grow your business with high-quality life insurance leads</h1>
                     <p>
-                        The Life insurance industry is saturated, and more agents are competing to get in front of potential customers. To close more deals and survive in this market, you must have access to high-quality and exclusive life insurance leads. Unlike before, when companies and agents rely on cold-calling, door-to-door knocking and spend thousands on TV and radio ads, smart agents are now growing their business by getting ready-to-buy prospects from companies like Marketcall.
+                        The Life insurance industry is saturated, and more agents are competing to get in front of potential customers. To close more deals and survive in this market, you must have access to high-quality and exclusive life insurance leads. Unlike before, when companies and agents rely on cold-calling, door-to-door knocking and spend thousands on TV and radio ads, smart agents are now growing their business by getting ready-to-buy prospects from companies like Ringtiva.
                     </p>
 
                     <p>
@@ -74,7 +74,7 @@ const LifeInsurance = () => {
                     <div className='space-y-6 '>
                         <h1 className='text-3xl md:text-4xl font-bold text-blue-600'>Grow Your Brand With High-quality Life Insurance Leads</h1>
                         <p className='text-lg md:text-xl leading-relaxed'>
-                            We don't just sell leads; our professionals will support you to achieve success. We offer best- in-class customer support and boasts of the latest technology. Create an account with Marketcall now to start enjoying free access to our feature-packed dashboard. You can customize the types of buyers you want and track the ROI of every penny you spend with our advanced filtering system and state-of-the-art campaign monitoring tools.
+                            We don't just sell leads; our professionals will support you to achieve success. We offer best- in-class customer support and boasts of the latest technology. Create an account with Ringtiva now to start enjoying free access to our feature-packed dashboard. You can customize the types of buyers you want and track the ROI of every penny you spend with our advanced filtering system and state-of-the-art campaign monitoring tools.
                         </p>
                     </div>
 

@@ -93,7 +93,7 @@ const Moving = () => {
 
 
    <section className="max-w-6xl mx-auto px-8 py-20 mb-20 bg-[#F4F6FB] rounded-3xl space-y-8 shadow-md">
-        <h1 className="font-bold text-4xl text-gray-900">Why work with Marketcall?</h1>
+        <h1 className="font-bold text-4xl text-gray-900">Why work with Ringtiva?</h1>
 
         <p className="text-gray-700 leading-relaxed max-w-3xl">
           Over the years, we have helped several professional movers grow their top-line figures by delivering highly-converting prospects. Signup now to get ahead of your competitors with our quality services. Here are the reasons why we are rated as the most preferred prospects acquisition company in the industry:

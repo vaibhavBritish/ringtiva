@@ -18,8 +18,8 @@ const Contact = () => {
           <div className="grid grid-cols-2 gap-12">
             <div>
               <h2 className="font-semibold text-lg">PR and events</h2>
-              <a className="text-blue-600 block" href="mailto:info@marketcall.com">
-                info@marketcall.com
+              <a className="text-blue-600 block" href="mailto:info@Ringtiva.com">
+                info@Ringtiva.com
               </a>
               <p className="text-gray-600">+1 (844) 410-5210</p>
               <p className="text-gray-600">+1 (323) 310-9979</p>
@@ -28,8 +28,8 @@ const Contact = () => {
          
             <div>
               <h2 className="font-semibold text-lg">Sales</h2>
-              <a className="text-blue-600 block" href="mailto:info@marketcall.com">
-                info@marketcall.com
+              <a className="text-blue-600 block" href="mailto:info@Ringtiva.com">
+                info@Ringtiva.com
               </a>
               <p className="text-gray-600">+1 (844) 410-5210</p>
               <p className="text-gray-600">+1 (323) 310-9979</p>
@@ -38,8 +38,8 @@ const Contact = () => {
        
             <div>
               <h2 className="font-semibold text-lg">Accounting</h2>
-              <a className="text-blue-600 block" href="mailto:info@marketcall.com">
-                info@marketcall.com
+              <a className="text-blue-600 block" href="mailto:info@Ringtiva.com">
+                info@Ringtiva.com
               </a>
               <p className="text-gray-600">+1 (844) 410-5210</p>
               <p className="text-gray-600">+1 (323) 310-9979</p>
@@ -48,8 +48,8 @@ const Contact = () => {
        
             <div>
               <h2 className="font-semibold text-lg">Affiliates</h2>
-              <a className="text-blue-600 block" href="mailto:affiliate@marketcall.com">
-                affiliate@marketcall.com
+              <a className="text-blue-600 block" href="mailto:affiliate@Ringtiva.com">
+                affiliate@Ringtiva.com
               </a>
               <p className="text-gray-600">+1 (844) 410-5210</p>
               <p className="text-gray-600">+1 (323) 310-9979</p>

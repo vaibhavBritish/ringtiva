@@ -25,7 +25,7 @@ const Navbar = () => {
     await fetch("/api/auth/logout", { method: "POST", credentials: "include" });
     dispatch(clearUser());
     router.push("/");
-    
+
   };
 
   useEffect(() => {
@@ -42,7 +42,16 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto py-4 px-4">
         <nav className="flex justify-between items-center">
           <Link href="/" className="flex items-center gap-2">
-            <Image src="/logo.svg" alt="Logo" width={130} height={40} />
+            <div style={{ position: "relative", width: "170px", height: "50px" }}>
+              <Image
+                src="/logo.png"
+                alt="Logo"
+                fill
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+
+
           </Link>
 
           <div className="hidden md:block">
@@ -59,9 +68,8 @@ const Navbar = () => {
                 </button>
 
                 <div
-                  className={`absolute left-0 top-9 bg-white/90 backdrop-blur-xl rounded-xl shadow-xl p-5 w-64 transition-all duration-200 ${
-                    productMenu ? "opacity-100 scale-100 visible" : "opacity-0 scale-95 invisible"
-                  }`}
+                  className={`absolute left-0 top-9 bg-white/90 backdrop-blur-xl rounded-xl shadow-xl p-5 w-64 transition-all duration-200 ${productMenu ? "opacity-100 scale-100 visible" : "opacity-0 scale-95 invisible"
+                    }`}
                 >
                   <ul className="space-y-3 text-gray-700">
                     <li><Link href="/products/marketing-tools" className="block hover:text-blue-700">Marketing Tools</Link></li>
@@ -89,9 +97,8 @@ const Navbar = () => {
                 </button>
 
                 <div
-                  className={`absolute left-0 top-9 bg-white/90 backdrop-blur-xl rounded-xl shadow-xl p-5 w-60 transition-all duration-200 ${
-                    companyMenu ? "opacity-100 scale-100 visible" : "opacity-0 scale-95 invisible"
-                  }`}
+                  className={`absolute left-0 top-9 bg-white/90 backdrop-blur-xl rounded-xl shadow-xl p-5 w-60 transition-all duration-200 ${companyMenu ? "opacity-100 scale-100 visible" : "opacity-0 scale-95 invisible"
+                    }`}
                 >
                   <ul className="space-y-3 text-gray-700">
                     <li><Link href="/company/about" className="block hover:text-blue-700">About Us</Link></li>
@@ -138,9 +145,8 @@ const Navbar = () => {
         </nav>
 
         <div
-          className={`md:hidden transition-all duration-300 overflow-hidden ${
-            open ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
-          }`}
+          className={`md:hidden transition-all duration-300 overflow-hidden ${open ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
+            }`}
         >
           <ul className="mt-4 space-y-5 text-gray-900 font-medium">
             <li><Link href="/helpcenter">Help Center</Link></li>

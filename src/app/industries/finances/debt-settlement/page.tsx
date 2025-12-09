@@ -56,7 +56,7 @@ const Debtsettlement = () => {
           </p>
 
           <p>
-            Marketcalls provide high-quality debt settlement leads that will improve your business productivity and profitability. We help companies and agents generate high-intent inbound calls that connect them directly with those who need their services. Our sole goal is to help you find highly converting prospects so you can close more deals and make a higher profit.
+            Ringtivas provide high-quality debt settlement leads that will improve your business productivity and profitability. We help companies and agents generate high-intent inbound calls that connect them directly with those who need their services. Our sole goal is to help you find highly converting prospects so you can close more deals and make a higher profit.
           </p>
         </div>
 

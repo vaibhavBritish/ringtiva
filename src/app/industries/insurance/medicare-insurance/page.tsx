@@ -46,7 +46,7 @@ const MedicareFoundation = () => {
                     </p>
 
                     <p>
-                        To tap into this rapidly growing market, you need to reach senior citizens when they are actively looking for solutions. At Marketcall, we provide high-intent calls from seniors and families seeking insurance coverage, supplemental plans, and more. Our converting leads will help you scale faster, beat competitors, and reach more customers.
+                        To tap into this rapidly growing market, you need to reach senior citizens when they are actively looking for solutions. At Ringtiva, we provide high-intent calls from seniors and families seeking insurance coverage, supplemental plans, and more. Our converting leads will help you scale faster, beat competitors, and reach more customers.
                     </p>
                 </div>
 
@@ -126,7 +126,7 @@ const MedicareFoundation = () => {
 
             <section className='max-w-5xl mx-auto text-center bg-[#f4f6fb] px-10 py-10 rounded-2xl shadow-lg space-y-10 mb-20'>
                 <h1 className='font-bold text-3xl text-blue-600'>Start selling with Highly-Converting Medicare Leads!</h1>
-                <p className='text-xl'>Start Selling With Highly-Converting Medicare Leads! Reach thousands of seniors and start growing your business with high-quality prospects from Marketcall. There no long term commitments or contract required.</p>
+                <p className='text-xl'>Start Selling With Highly-Converting Medicare Leads! Reach thousands of seniors and start growing your business with high-quality prospects from Ringtiva. There no long term commitments or contract required.</p>
 
                 <button className='bg-blue-600 text-white rounded-2xl border px-6 py-4'>Buy Leads Now!</button>
 

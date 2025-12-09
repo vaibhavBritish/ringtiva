@@ -10,7 +10,7 @@ const Vacancy = () => {
           We’re looking for passionate and talented people to join us on our mission.
         </p>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto mt-2">
-          At Marketcall, we value clear communication, ownership, and responsibility.
+          At Ringtiva, we value clear communication, ownership, and responsibility.
         </p>
       </div>
 
@@ -22,10 +22,10 @@ const Vacancy = () => {
         </p>
 
         <a
-          href="mailto:info@marketcall.com"
+          href="mailto:info@Ringtiva.com"
           className="inline-block mt-5 text-blue-600 font-medium text-lg hover:underline"
         >
-          info@marketcall.com
+          info@Ringtiva.com
         </a>
       </div>
     </div>

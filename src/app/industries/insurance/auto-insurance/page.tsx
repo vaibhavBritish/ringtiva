@@ -85,7 +85,7 @@ const AutoInsurance = () => {
                         <h1 className='font-bold text-3xl'>Stop Prospecting and Start Closing</h1>
 
                         <p>
-                            TWe supply the best auto insurance leads so you won’t have to waste time, energy, and money on prospecting new customers. We’ll generate high intent inbound calls through targeted campaigns, SEO, Google Ads, and social media platforms like Facebook, TikTok, Snapchat, etc. At Marketcall, we are committed to helping you succeed by supplying consumers that are ready to buy your products.
+                            TWe supply the best auto insurance leads so you won’t have to waste time, energy, and money on prospecting new customers. We’ll generate high intent inbound calls through targeted campaigns, SEO, Google Ads, and social media platforms like Facebook, TikTok, Snapchat, etc. At Ringtiva, we are committed to helping you succeed by supplying consumers that are ready to buy your products.
 
                         </p>
                     </div>
@@ -98,7 +98,7 @@ const AutoInsurance = () => {
 
             <section className="max-w-5xl px-10 py-14 mx-auto bg-[#f4f6fb] rounded-xl">
                 <h1 className="text-3xl font-bold text-blue-600">
-                    Why Marketcall Auto Insurance Leads?
+                    Why Ringtiva Auto Insurance Leads?
                 </h1>
 
                 <p className="text-gray-600 mt-4 text-lg leading-relaxed">
@@ -130,7 +130,7 @@ const AutoInsurance = () => {
 
             <section className='max-w-5xl mx-auto text-center bg-[#f4f6fb] px-10 py-10 rounded-2xl shadow-lg space-y-10 mb-20 mt-15'>
                 <h1 className='font-bold text-3xl text-blue-600'>Start selling with Highly-Converting Medicare Leads!</h1>
-                <p className='text-xl'>Start Selling With Highly-Converting Medicare Leads! Reach thousands of seniors and start growing your business with high-quality prospects from Marketcall. There no long term commitments or contract required.</p>
+                <p className='text-xl'>Start Selling With Highly-Converting Medicare Leads! Reach thousands of seniors and start growing your business with high-quality prospects from Ringtiva. There no long term commitments or contract required.</p>
 
                 <button className='bg-blue-600 text-white rounded-2xl border px-6 py-4'>Buy Leads Now!</button>
 

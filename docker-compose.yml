@@ -1,9 +1,9 @@
 services:
-  marketcall:
-    container_name: marketcall
+  ringtiva:
+    container_name: ringtiva
     build: .
     restart: always
     env_file:
       - .env
     ports:
-      - "3002:3000"
+      - "3002:3002"

@@ -50,7 +50,7 @@ export default function Home() {
           </h1>
 
           <p className="text-gray-600 text-lg">
-            Marketcall is the best affiliate network helping businesses get high-quality clients efficiently.
+            Ringtiva is the best affiliate network helping businesses get high-quality clients efficiently.
           </p>
 
           <p className="text-gray-600 text-lg">
@@ -80,7 +80,7 @@ export default function Home() {
       <section className="py-20">
         <div className="text-center space-y-3">
           <h1 className="font-semibold text-2xl text-gray-700">Product</h1>
-          <h1 className="font-bold text-3xl md:text-4xl">Boost Your Digital Presence With Marketcall</h1>
+          <h1 className="font-bold text-3xl md:text-4xl">Boost Your Digital Presence With Ringtiva</h1>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
@@ -131,10 +131,10 @@ export default function Home() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-10">
           <div className="md:w-1/2 space-y-6">
             <h1 className="font-extrabold text-3xl">
-              Why Choose <span className="text-blue-600">Marketcall?</span>
+              Why Choose <span className="text-blue-600">Ringtiva?</span>
             </h1>
             <p className="text-gray-700 leading-relaxed">
-              Marketcall is the best performance marketing solution. We help match advertisers with suitable
+              Ringtiva is the best performance marketing solution. We help match advertisers with suitable
               affiliates, pairing them for long-term success in maximizing profits.
             </p>
             <p className="text-gray-700 leading-relaxed">
@@ -179,7 +179,7 @@ export default function Home() {
 
           <h1 className="font-bold text-3xl">Get Private Affiliate Case Studies</h1>
           <p className="text-gray-700">
-            Learn all the secret strategies used by top-performing Marketcall affiliates.
+            Learn all the secret strategies used by top-performing Ringtiva affiliates.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">

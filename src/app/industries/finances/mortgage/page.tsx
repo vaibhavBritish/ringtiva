@@ -53,7 +53,7 @@ const Mortgage = () => {
         <div className='space-y-10 text-lg md:text-xl leading-relaxed'>
           <h1 className='text-2xl font-bold text-blue-600'>Close more loans with real-time mortgage leads</h1>
           <p>
-            The mortgage business environment is becoming more challenging and competitive. Mortgage companies are now looking beyond the costly and less effective traditional marketing methods to survive and increase their ROI. Rather than chasing clients, brokers and lenders are leveraging companies like Marketcall to connect with those who want to purchase a new home or refinance their current mortgages.
+            The mortgage business environment is becoming more challenging and competitive. Mortgage companies are now looking beyond the costly and less effective traditional marketing methods to survive and increase their ROI. Rather than chasing clients, brokers and lenders are leveraging companies like Ringtiva to connect with those who want to purchase a new home or refinance their current mortgages.
           </p>
 
           <p>

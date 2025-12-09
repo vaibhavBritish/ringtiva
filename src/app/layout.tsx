@@ -17,9 +17,31 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Your App",
-  description: "Authentication Enabled",
+  title: "Ringtiva | Performance Marketing & Call Tracking Platform",
+  description:
+    "Ringtiva offers AI-powered performance marketing, call tracking, lead routing, and real-time analytics to maximize conversions and business growth.",
+  keywords: [
+    "Ringtiva",
+    "performance marketing",
+    "call tracking",
+    "lead generation",
+    "analytics",
+    "call routing",
+    "marketing automation",
+  ],
+  icons: {
+    icon: "/logo.png", 
+  },
+  openGraph: {
+    title: "Ringtiva | Performance Marketing & Call Tracking Platform",
+    description:
+      "AI-powered performance marketing, call tracking, and real-time analytics for businesses to scale conversions.",
+    type: "website",
+    url: "https://ringtiva.com",
+  },
+  category: "technology",
 };
+
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

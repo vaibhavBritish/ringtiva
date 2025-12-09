@@ -57,7 +57,7 @@ const Buyers = () => {
           </p>
 
           <p>
-            Marketcall uses innovative techniques and state-of-the-art technology to help realtors generate high-intent inbound calls from prospects so they can focus on showing clients properties and closing new deals. You don’t have to worry about buyers leads that you have to cold call. Our professionals will work with you closely and help you attract buyers to your listings. Rather than chase prospects around, we’ll get them to contact you.
+            Ringtiva uses innovative techniques and state-of-the-art technology to help realtors generate high-intent inbound calls from prospects so they can focus on showing clients properties and closing new deals. You don’t have to worry about buyers leads that you have to cold call. Our professionals will work with you closely and help you attract buyers to your listings. Rather than chase prospects around, we’ll get them to contact you.
           </p>
         </div>
 

@@ -31,7 +31,7 @@ const Leadgeneration = () => {
   return (
     <div className="max-w-5xl mx-auto px-6 ">
       <h1 className="font-bold text-2xl mb-10 text-blue-600">
-        Marketcall Offers Various Lead Generation Methods
+        Ringtiva Offers Various Lead Generation Methods
       </h1>
 
       <div className="grid md:grid-cols-3 gap-10">

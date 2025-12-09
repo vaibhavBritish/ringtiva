@@ -49,7 +49,7 @@ const HighSecurity = () => {
         <h1 className='font-bold text-3xl text-blue-600'>Boost your revenue with qualified home security leads</h1>
         <p>About 20% of Americans have a security system installed in their homes, and the number is estimated to increase to 65% in the next five years. The industry is booming, and more security contractors are coming up to tap into the opportunities it has to offer. The increased competition among companies is making it more challenging for contractors to attract and convert new customers. Buying exclusive and qualified home security leads is essential now more than ever to generate more sales and keep your business thriving.</p>
 
-        <p>Marketcall specializes in helping installers and contractors attract new clients to their business. We’ll help you generate high-intent inbound calls from prospects who want to install or receive information on home security or surveillance systems. Our experienced and highly skilled marketers will work with you to understand your offerings and provide highly- converting home security leads that meet your specific business needs.</p>
+        <p>Ringtiva specializes in helping installers and contractors attract new clients to their business. We’ll help you generate high-intent inbound calls from prospects who want to install or receive information on home security or surveillance systems. Our experienced and highly skilled marketers will work with you to understand your offerings and provide highly- converting home security leads that meet your specific business needs.</p>
       </section>
 
       <section className='max-w-6xl mx-auto px-10 py-10 bg-[#F4F6FB] space-y-5 rounded-2xl mb-10'>
@@ -62,7 +62,7 @@ const HighSecurity = () => {
         <div className='grid md:grid-cols-2 gap-20 px-5'>
           <div>
             <h1 className='font-bold text-3xl text-blue-600 py-7'>Old tricks are less effective!</h1>
-            <p>Gone are days when security contractors and installers invest heavily in TV and magazine advertisements to get new businesses. Also, you don’t have to waste time, effort, and money cold calling homeowners and companies to find out if they need your services. At Marketcall, we’ll save you the stress of using less-effective traditional marketing methods. When you buy our verified services, you will spend less, get more ready-to-buy customers, and convert more prospects.</p>
+            <p>Gone are days when security contractors and installers invest heavily in TV and magazine advertisements to get new businesses. Also, you don’t have to waste time, effort, and money cold calling homeowners and companies to find out if they need your services. At Ringtiva, we’ll save you the stress of using less-effective traditional marketing methods. When you buy our verified services, you will spend less, get more ready-to-buy customers, and convert more prospects.</p>
           </div>
           <div className='px-3'>
             <Image

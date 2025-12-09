@@ -41,8 +41,8 @@ const Support = () => {
                     <div className="w-1/2">
                         <h2 className="text-red-500 pt-14">Personal Manager</h2>
                         <h1 className="font-bold text-2xl py-2">We’ve got your back</h1>
-                        <p>After sign up, the advertiser and webmaster get a personal manager so he can solve any problem and discuss any question. For advertisers, for example, he will guide through Marketcall system, suggest which traffic sources are better, send all the necessary documents and tell you how to use the system’s features at 100%.</p>
-                        <p className="py-2">We are always in touch and always ready to help you earn with MarketCall.</p>
+                        <p>After sign up, the advertiser and webmaster get a personal manager so he can solve any problem and discuss any question. For advertisers, for example, he will guide through Ringtiva system, suggest which traffic sources are better, send all the necessary documents and tell you how to use the system’s features at 100%.</p>
+                        <p className="py-2">We are always in touch and always ready to help you earn with Ringtiva.</p>
                     </div>
                 </div>
 

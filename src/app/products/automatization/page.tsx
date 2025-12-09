@@ -56,7 +56,7 @@ const Automatization = () => {
                     <div className="w-1/2">
                         <h2 className="text-red-500 pt-14">Lead-to-call service</h2>
                         <h1 className="font-bold text-2xl py-2">Import leads on the go</h1>
-                        <p>Import your leads directly from Google Docs, Facebook, My Target, Zapier and many others. The lead-to-call service instantly transfers the lead to the processing to the professional team of Marketcall Brokers for qualified advice. The service can be used by all affiliates for free.</p>
+                        <p>Import your leads directly from Google Docs, Facebook, My Target, Zapier and many others. The lead-to-call service instantly transfers the lead to the processing to the professional team of Ringtiva Brokers for qualified advice. The service can be used by all affiliates for free.</p>
                     </div>
 
                 </div>

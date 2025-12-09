@@ -57,7 +57,7 @@ const HealthInsurance = () => {
               Are you struggling to acquire customers even with increasing demand for Health Insurance? Competition is rising, and gaining prospects is harder than ever before.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              At <span className="font-semibold text-blue-600">Marketcalls</span>, we provide high-intent calls from customers actively searching for insurance solutions.
+              At <span className="font-semibold text-blue-600">Ringtivas</span>, we provide high-intent calls from customers actively searching for insurance solutions.
               Explore our services, create an account, and start scaling your business today.
             </p>
           </div>
@@ -108,7 +108,7 @@ const HealthInsurance = () => {
 
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/2 space-y-4">
-            <h1 className="font-bold text-3xl text-blue-600">Marketcall Unique Process</h1>
+            <h1 className="font-bold text-3xl text-blue-600">Ringtiva Unique Process</h1>
             <p className="text-gray-600 text-lg leading-relaxed">
               Create an account, choose a budget and lead preference, and our marketing team generates calls using Google,
               Facebook, Snapchat, SEO, TikTok and more — ensuring maximum return on every purchase.

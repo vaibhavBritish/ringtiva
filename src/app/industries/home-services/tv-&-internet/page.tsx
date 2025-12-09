@@ -49,7 +49,7 @@ const TvInternet = () => {
         <h1 className='font-bold text-3xl text-blue-600'>Exclusive TV and Internet Leads</h1>
         <p>Millions of Americans use TV and Internet services daily and are always on the lookout for providers offering exciting features and cheaper rates. Unlike before, when companies chase new prospects by running costly ads on magazines and tv slots, providers are now leveraging technology to make consumers come to them. To get more customers and grow your business as a local service provider, you need to buy high-quality TV and internet leads</p>
 
-        <p>We’ll work with you to understand your business needs and generate high-intent inbound calls from prospects that match your specific criteria. We’ll help you get new customers through organic SEO, Google AdWords, and targeted ads on social media platforms like TikTok, Instagram, Facebook, Snapchat, and more. Sign up with Marketcall now to start growing your customer base.</p>
+        <p>We’ll work with you to understand your business needs and generate high-intent inbound calls from prospects that match your specific criteria. We’ll help you get new customers through organic SEO, Google AdWords, and targeted ads on social media platforms like TikTok, Instagram, Facebook, Snapchat, and more. Sign up with Ringtiva now to start growing your customer base.</p>
       </section>
 
       <section className='max-w-6xl mx-auto px-10 py-10 bg-[#F4F6FB] space-y-5 rounded-2xl mb-10'>

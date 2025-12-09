@@ -10,11 +10,11 @@ const About = () => {
             <div className="max-w-6xl mx-auto py-12 px-4">
                 <div className="text-center">
                     <h1 className="font-bold text-4xl py-5">
-                        Hello, <span className="text-blue-600">We are Marketcall</span>
+                        Hello, <span className="text-blue-600">We are Ringtiva</span>
                     </h1>
                     <p className="text-gray-700 max-w-3xl mx-auto leading-relaxed">
                         We're here to bring brands and publishers together. Through the ad
-                        campaigns Marketcall powers, we reach more than 300 million people
+                        campaigns Ringtiva powers, we reach more than 300 million people
                         each month.
                     </p>
                 </div>
@@ -39,7 +39,7 @@ const About = () => {
                     <div className="md:w-1/2 flex justify-center">
                         <Image
                             src="/company/officeImage.jpg"
-                            alt="Marketcall Office"
+                            alt="Ringtiva Office"
                             width={500}
                             height={400}
                             className="w-full max-w-md object-cover rounded-lg shadow"

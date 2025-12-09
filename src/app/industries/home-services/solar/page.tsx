@@ -68,7 +68,7 @@ const Solar = () => {
 
       <section className='max-w-6xl mx-auto px-10 py-10 bg-[#F4F6FB] space-y-8 rounded-2xl'>
         <h1 className='font-bold text-3xl text-blue-600'>Boost your revenue</h1>
-        <p className='text-md'>Spend less on marketing and increase your revenue with quality solar leads from Marketcall. Over the years, we have helped several installers grow their business by connecting them with homeowners and businesses that are ready to invest in solar projects. We’ll get your sales team busy by delivering high-intent inbound calls from new prospects. Take your business to the next level now by leveraging on our customer acquisition skills and experience in the industry.</p>
+        <p className='text-md'>Spend less on marketing and increase your revenue with quality solar leads from Ringtiva. Over the years, we have helped several installers grow their business by connecting them with homeowners and businesses that are ready to invest in solar projects. We’ll get your sales team busy by delivering high-intent inbound calls from new prospects. Take your business to the next level now by leveraging on our customer acquisition skills and experience in the industry.</p>
       </section>
 
       <section className='max-w-6xl mx-auto px-10 py-28'>
