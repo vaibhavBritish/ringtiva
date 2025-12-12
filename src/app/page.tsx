@@ -5,7 +5,7 @@ export default function Home() {
   const cards = [
     {
       id: 1,
-      title: "Advert",
+      title: "Advertisers",
       desc: "I am an advertiser, app developer, service provider or agency looking to reach the right customers and maximize profits.",
       features: [
         "Get promote by super affiliates",
