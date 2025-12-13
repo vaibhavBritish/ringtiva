@@ -21,8 +21,7 @@ export async function middleware(req: NextRequest) {
       const userType = payload.userType as string | undefined
       const isAdmin = Boolean(payload.isAdmin)
 
-      /* ---------------- ROOT DASHBOARD REDIRECT ---------------- */
-      // If user accesses /dashboard, redirect to their role-specific dashboard
+      
       if (pathname === "/dashboard" || pathname === "/dashboard/") {
         if (isAdmin) {
           return NextResponse.redirect(new URL("/admin", req.url))
@@ -38,30 +37,28 @@ export async function middleware(req: NextRequest) {
         }
       }
 
-      /* ---------------- ADMIN ---------------- */
+      
       if (pathname.startsWith("/admin") && !isAdmin) {
         return NextResponse.redirect(
           new URL("/auth/login?message=Admin access only", req.url)
         )
       }
 
-      /* ---------------- AFFILIATE ---------------- */
-      // Only allow AFFILIATE users to access affiliate dashboard
+      
       if (pathname.startsWith("/dashboard/affiliate")) {
         if (userType !== "AFFILIATE") {
-          // If user is advertiser, redirect to their dashboard
+          
           if (userType === "ADVERTISER") {
             return NextResponse.redirect(new URL("/dashboard/advertiser", req.url))
           }
-          // Otherwise, redirect to login
+          
           return NextResponse.redirect(
             new URL("/auth/login?message=Affiliate access only", req.url)
           )
         }
       }
 
-      /* ---------------- ADVERTISER ---------------- */
-      // Only allow ADVERTISER users to access advertiser dashboard
+    
       if (pathname.startsWith("/dashboard/advertiser")) {
         if (userType !== "ADVERTISER") {
           // If user is affiliate, redirect to their dashboard
@@ -75,7 +72,7 @@ export async function middleware(req: NextRequest) {
         }
       }
 
-      /* -------- BLOCK USERS WITH NO ROLE ON OTHER DASHBOARD PATHS -------- */
+      
       if (!userType && pathname.startsWith("/dashboard") && pathname !== "/dashboard" && pathname !== "/dashboard/") {
         return NextResponse.redirect(
           new URL("/auth/login?message=Role not assigned", req.url)
