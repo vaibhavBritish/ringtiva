@@ -15,7 +15,7 @@ const LeadGeneration = () => {
         "Promotional Research",
         "Conference, Skype Calls & Webinars",
       ],
-      img: "/products/directmarketing.png",
+      img: "https://ringtivassests.blob.core.windows.net/ringtiva-images/product/lead-generation/directmarketing.png",
     },
     {
       id: 2,
@@ -26,7 +26,7 @@ const LeadGeneration = () => {
         "Social Media Lead Acquisition",
         "Media-wide Lead Campaigns",
       ],
-      img: "/products/onlinemarketing.png",
+      img: "https://ringtivassests.blob.core.windows.net/ringtiva-images/product/lead-generation/onlinemarketing.png",
     },
     {
       id: 3,
@@ -36,7 +36,7 @@ const LeadGeneration = () => {
         "SMS Newsletter",
         "Flyers & Printed Outreach",
       ],
-      img: "/products/newsletter.png",
+      img: "https://ringtivassests.blob.core.windows.net/ringtiva-images/product/lead-generation/newsletter.png",
     },
   ];
 

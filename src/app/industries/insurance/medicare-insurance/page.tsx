@@ -10,7 +10,7 @@ const MedicareFoundation = () => {
 
             <section className="relative w-full min-h-[90vh] flex items-center bg-linear-to-r from-[#6A4DFF] to-[#8E68FF] overflow-hidden rounded-b-3xl">
                 <Image
-                    src="/industries/bg-health.jpg"
+                    src="https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/medicare-insurance/bg-health.jpg"
                     alt="Health Insurance Banner"
                     width={2000}
                     height={2000}
@@ -71,7 +71,7 @@ const MedicareFoundation = () => {
 
                     <div className='relative w-full h-72 md:h-96 rounded-2xl overflow-hidden shadow-xl'>
                         <Image
-                            src="/industries/medicareSpendless.jpg"
+                            src="https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/medicare-insurance/medicareSpendless.jpg"
                             alt="Spend Less Medicare"
                             fill
                             className='object-cover rounded-2xl'
@@ -83,7 +83,7 @@ const MedicareFoundation = () => {
 
                     <div className='relative w-full h-72 md:h-96 rounded-2xl overflow-hidden shadow-xl'>
                         <Image
-                            src="/industries/freecalltracking.jpg"
+                            src="https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/medicare-insurance/freecalltracking.jpg"
                             alt="Spend Less Medicare"
                             fill
                             className='object-cover rounded-2xl'
@@ -107,7 +107,7 @@ const MedicareFoundation = () => {
 
                     <div className='relative w-full h-72 md:h-96 rounded-2xl overflow-hidden shadow-xl'>
                         <Image
-                            src="/industries/takecharge.jpg"
+                            src="https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/medicare-insurance/takecharge.jpg"
                             alt="Spend Less Medicare"
                             fill
                             className='object-cover rounded-2xl'

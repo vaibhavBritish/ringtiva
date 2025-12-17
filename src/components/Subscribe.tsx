@@ -7,7 +7,7 @@ const Subscribe = () => {
             <section className="py-16 ">
                 <div className="max-w-xl mx-auto text-center space-y-6 bg-white p-10 rounded-3xl ">
                     <Image
-                        src="/subscribe-icon.svg"
+                        src="https://ringtivassests.blob.core.windows.net/ringtiva-images/homepage/subscribe-icon.svg"
                         alt="events"
                         width={100}
                         height={100}

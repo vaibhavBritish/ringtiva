@@ -18,7 +18,7 @@ const Hotelbooking = () => {
     <div className="w-full">
       <section className="relative w-full min-h-[90vh] flex items-center bg-linear-to-r from-[#6A4DFF] to-[#8E68FF] overflow-hidden rounded-b-3xl">
         <Image
-          src="/industries/bg-health.jpg"
+          src="https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/travel/bg-health.jpg"
           alt="Hotel Booking Banner"
           width={2000}
           height={2000}
@@ -76,7 +76,7 @@ const Hotelbooking = () => {
 
           <div className="px-3">
             <Image
-              src="/industries/travel/hotel-booking-welcome-img.png"
+              src="https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/travel/hotel-booking-welcome-img.png"
               alt="Hotel Booking Welcome"
               width={450}
               height={350}
@@ -99,7 +99,7 @@ const Hotelbooking = () => {
       <div className="grid md:grid-cols-2 gap-20 px-5 mb-10">
         <div className="px-3">
           <Image
-            src="/industries/travel/hotel-booking_tgb_0.png"
+            src="https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/travel/hotel-booking_tgb_0.png"
             alt="Increase Revenue"
             width={450}
             height={350}

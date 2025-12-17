@@ -6,19 +6,19 @@ const Leadgeneration = () => {
     {
       id: 1,
       title: "Online Marketing",
-      img: "/industries/onlineMarketing.svg",
+      img: "https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/finances/onlineMarketing.svg",
       benefits: ["Paid Search", "SEO", "Social Ads", "Native Ads", "Classified Ads", "Email"],
     },
     {
       id: 2,
       title: "Offline Marketing",
-      img: "/industries/offilineMarketing.svg",
+      img: "https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/finances/offilineMarketing.svg",
       benefits: ["Paid Search", "Callcenter transfer", "Direct Mail", "SMS"],
     },
     {
       id: 3,
       title: "Individual Approach",
-      img: "/industries/individualApproach.svg",
+      img: "https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/finances/individualApproach.svg",
       benefits: [
         "Choose allowed traffic sources",
         "Set Definition of billable call",

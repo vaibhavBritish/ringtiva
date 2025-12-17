@@ -5,7 +5,7 @@ import blogReducer from "./blogSlice";
 export const store = configureStore({
   reducer: {
     user: userReducer,
-    blogs: blogReducer, // ✔ correct key name
+    blogs: blogReducer, 
   },
 });
 

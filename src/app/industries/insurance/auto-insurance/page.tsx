@@ -16,7 +16,7 @@ const AutoInsurance = () => {
         <div>
             <section className="relative w-full min-h-[90vh] flex items-center bg-linear-to-r from-[#6A4DFF] to-[#8E68FF] overflow-hidden">
                 <Image
-                    src="/industries/bg-health.jpg"
+                    src="https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/auto-insurance/bg-health.jpg"
                     alt="Health Insurance Banner"
                     width={2000}
                     height={2000}
@@ -60,7 +60,7 @@ const AutoInsurance = () => {
 
                     <div className="md:w-1/2 flex justify-center">
                         <Image
-                            src="/industries/autoinsurance.png"
+                            src="https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/auto-insurance/autoinsurance.png"
                             alt="Auto Insurance Illustration"
                             width={400}
                             height={400}
@@ -73,7 +73,7 @@ const AutoInsurance = () => {
                 <div className="flex flex-col md:flex-row items-center justify-between gap-10 space-y-20">
                     <div className="md:w-1/2 flex justify-center mt-10">
                         <Image
-                            src="/industries/autoinsurance2.png"
+                            src="https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/auto-insurance/autoinsurance2.png"
                             alt="Auto Insurance Illustration"
                             width={400}
                             height={400}

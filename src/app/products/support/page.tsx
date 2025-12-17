@@ -30,13 +30,13 @@ const Support = () => {
                         <p className="py-2">Advertiser don’t worry about customers being confused with inaccurate information, and affiliates not waste their time and effort on creating promo materials.</p>
                     </div>
                     <div>
-                        <Image src="/products/ready_to_use_promos.png" alt="call-recording" width={400} height={400} className="rounded-2xl" />
+                        <Image src="https://ringtivassests.blob.core.windows.net/ringtiva-images/product/support/ready_to_use_promos.png" alt="call-recording" width={400} height={400} className="rounded-2xl" />
                     </div>
                 </div>
 
                 <div className="flex justify-between py-20">
                     <div>
-                        <Image src="/products/personalmanager.png" alt="call-recording" width={400} height={400} className="rounded-2xl" />
+                        <Image src="https://ringtivassests.blob.core.windows.net/ringtiva-images/product/support/personalmanager.png" alt="call-recording" width={400} height={400} className="rounded-2xl" />
                     </div>
                     <div className="w-1/2">
                         <h2 className="text-red-500 pt-14">Personal Manager</h2>
@@ -53,7 +53,7 @@ const Support = () => {
                         <p>Create bots, that manage your advertising campaigns, work with programs, calls, leads, offers, receive statuses and track them wherever you feel comfortable: by mail, SMS, a tracker or messenger.</p>
                     </div>
                     <div>
-                        <Image src="/products/friendlySupport.png" alt="call-recording" width={400} height={400} className="rounded-2xl" />
+                        <Image src="https://ringtivassests.blob.core.windows.net/ringtiva-images/product/support/ready_to_use_promos.png" alt="call-recording" width={400} height={400} className="rounded-2xl" />
                     </div>
                 </div>
 

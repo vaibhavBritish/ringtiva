@@ -14,7 +14,7 @@ export default function Home() {
         "Detailed statistics and analytics",
       ],
       btn: "See all features",
-      img: "/advertiser.png",
+      img: "https://ringtivassests.blob.core.windows.net/ringtiva-images/homepage/advertiser.png",
     },
     {
       id: 2,
@@ -28,17 +28,17 @@ export default function Home() {
         "High conversion landing pages for each offer",
       ],
       btn: "Become a partner",
-      img: "/partners.jpg",
+      img: "https://ringtivassests.blob.core.windows.net/ringtiva-images/homepage/partners.jpg",
     },
   ];
 
   const products = [
-    { id: 1, name: "Marketing Tools", img: "/marketing.svg" },
-    { id: 2, name: "Fraud Prevention", img: "/fraud.svg" },
-    { id: 3, name: "Automatization", img: "/automatic.svg" },
-    { id: 4, name: "Lead Generation", img: "/lead.svg" },
-    { id: 5, name: "Payouts", img: "/pay.svg" },
-    { id: 6, name: "Dedicated Support", img: "/dedicated.svg" },
+    { id: 1, name: "Marketing Tools", img: "https://ringtivassests.blob.core.windows.net/ringtiva-images/homepage/marketing.svg" },
+    { id: 2, name: "Fraud Prevention", img: "https://ringtivassests.blob.core.windows.net/ringtiva-images/homepage/fraud.svg" },
+    { id: 3, name: "Automatization", img: "https://ringtivassests.blob.core.windows.net/ringtiva-images/homepage/automatic.svg" },
+    { id: 4, name: "Lead Generation", img: "https://ringtivassests.blob.core.windows.net/ringtiva-images/homepage/lead.svg" },
+    { id: 5, name: "Payouts", img: "https://ringtivassests.blob.core.windows.net/ringtiva-images/homepage/pay.svg" },
+    { id: 6, name: "Dedicated Support", img: "https://ringtivassests.blob.core.windows.net/ringtiva-images/homepage/dedicated.svg" },
   ];
 
   return (
@@ -71,7 +71,7 @@ export default function Home() {
         <div className="md:w-1/2">
           <div className="rounded-3xl overflow-hidden shadow-xl">
             <video autoPlay loop muted playsInline width="800" className="rounded-3xl">
-              <source src="/video-home.mp4" type="video/mp4" />
+              <source src="https://ringtivassests.blob.core.windows.net/ringtiva-images/homepage/homepage-videos/video-home.mp4" type="video/mp4" />
             </video>
           </div>
         </div>
@@ -147,7 +147,7 @@ export default function Home() {
           </div>
 
           <div className="shadow-xl rounded-3xl overflow-hidden">
-            <Image src="/whychoose.jpg" alt="Why Choose Us" width={500} height={350} />
+            <Image src="https://ringtivassests.blob.core.windows.net/ringtiva-images/homepage/whychoose.jpg" alt="Why Choose Us" width={500} height={350} />
           </div>
         </div>
       </section>
@@ -170,7 +170,7 @@ export default function Home() {
       <section className="py-16 ">
         <div className="max-w-xl mx-auto text-center space-y-6 bg-white p-10 rounded-3xl ">
           <Image
-            src="/subscribe-icon.svg"
+            src="https://ringtivassests.blob.core.windows.net/ringtiva-images/homepage/subscribe-icon.svg"
             alt="events"
             width={100}
             height={100}

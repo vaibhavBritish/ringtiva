@@ -44,13 +44,13 @@ const FraudPrevention = () => {
                         <p>Based on analyzing the data set, identifying areas of allowable values and detecting statistical anomalies. Among other things, we have implemented speech recognition and text transcription, which allows us to produce the most accurate data during antifraud analysis, protecting our clients from fraudsters.</p>
                     </div>
                     <div>
-                        <Image src="/products/keepingyousafe.png" alt="call-recording" width={400} height={400} className="rounded-2xl shadow-lg" />
+                        <Image src="https://ringtivassests.blob.core.windows.net/ringtiva-images/product/fraud-prevention/keepingyousafe.png" alt="call-recording" width={400} height={400} className="rounded-2xl shadow-lg" />
                     </div>
                 </div>
 
                 <div className="flex justify-between py-20">
                     <div>
-                        <Image src="/products/savetimeonfraudcalls.png" alt="call-recording" width={400} height={400} className="rounded-2xl shadow-lg" />
+                        <Image src="https://ringtivassests.blob.core.windows.net/ringtiva-images/product/fraud-prevention/savetimeonfraudcalls.png" alt="call-recording" width={400} height={400} className="rounded-2xl shadow-lg" />
                     </div>
                     <div className="w-1/2">
                         <h2 className="text-red-500 pt-14">Anti fraud audit</h2>

@@ -45,13 +45,13 @@ const Marketingtools = () => {
                         <p>Call recording allows you to track the quality of incoming traffic and adjust the advertising activities of affiliates connected to your offers.</p>
                     </div>
                     <div>
-                        <Image src="/products/marketintools.png" alt="call-recording" width={400} height={400} className="rounded-2xl shadow-lg" />
+                        <Image src="https://ringtivassests.blob.core.windows.net/ringtiva-images/product/marketing-tools/marketintools.png" alt="call-recording" width={400} height={400} className="rounded-2xl shadow-lg" />
                     </div>
                 </div>
 
                 <div className="flex justify-between py-20">
                     <div>
-                        <Image src="/products/automatedFollowup.png" alt="call-recording" width={400} height={400} className="rounded-2xl shadow-lg" />
+                        <Image src="https://ringtivassests.blob.core.windows.net/ringtiva-images/product/marketing-tools/automatedFollowup.png" alt="call-recording" width={400} height={400} className="rounded-2xl shadow-lg" />
                     </div>
                     <div className="w-1/2">
                         <h2 className="text-red-500 pt-14">Call Logic</h2>
@@ -68,7 +68,7 @@ const Marketingtools = () => {
                         <p>Voice transcription is a very convenient tool for analyzing calls. With this functionality, you can track calls by keywords that occur in a conversation and filter the quality of incoming traffic.</p>
                     </div>
                     <div>
-                        <Image src="/products/voiceRecognition.png" alt="call-recording" width={400} height={400} className="rounded-2xl shadow-lg" />
+                        <Image src="https://ringtivassests.blob.core.windows.net/ringtiva-images/product/marketing-tools/voiceRecognition.png" alt="call-recording" width={400} height={400} className="rounded-2xl shadow-lg" />
                     </div>
                 </div>
 

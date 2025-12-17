@@ -17,7 +17,7 @@ const TvInternet = () => {
     <div>
       <section className="relative w-full min-h-[90vh] flex items-center bg-linear-to-r from-[#6A4DFF] to-[#8E68FF] overflow-hidden rounded-b-3xl">
         <Image
-          src="/industries/bg-health.jpg"
+          src="https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/tv-and-internet/bg-health.jpg"
           alt="Health Insurance Banner"
           width={2000}
           height={2000}
@@ -66,7 +66,7 @@ const TvInternet = () => {
           </div>
           <div className='px-3'>
             <Image
-              src={'/industries/tv-and-internet/tv-&-internet_tgb_0.png'}
+              src={'https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/tv-and-internet/tv-&-internet_tgb_0.png'}
               alt='tv and internet'
               width={450}
               height={350}
@@ -77,7 +77,7 @@ const TvInternet = () => {
         <div className='grid md:grid-cols-2 gap-20 px-5'>
           <div className='px-3'>
             <Image
-              src={'/industries/tv-and-internet/tv-&-internet_tgb_1.png'}
+              src={'https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/tv-and-internet/tv-&-internet_tgb_1.png'}
               alt='tv and internet'
               width={450}
               height={350}

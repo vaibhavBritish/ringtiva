@@ -9,7 +9,7 @@ const Industries = () => {
 
             <div className="relative h-[60vh] md:h-[70vh] w-full">
                 <Image
-                    src="/header.png"
+                    src="https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/header.png"
                     alt="header"
                     width={1920}
                     height={800}

@@ -20,7 +20,7 @@ const Sellers = () => {
 
       <section className="relative w-full min-h-[90vh] flex items-center bg-linear-to-r from-[#6A4DFF] to-[#8E68FF] overflow-hidden rounded-b-3xl">
         <Image
-          src="/industries/bg-health.jpg"
+          src="https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/real-estate/bg-health.jpg"
           alt="Health Insurance Banner"
           width={2000}
           height={2000}
@@ -82,7 +82,7 @@ const Sellers = () => {
 
           <div className='relative w-full h-72 md:h-96 rounded-2xl overflow-hidden shadow-xl'>
             <Image
-              src="/industries/sellers1.png"
+              src="https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/real-estate/sellers1.png"
               alt="Mortgage"
               fill
               className='object-cover rounded-2xl'
@@ -94,7 +94,7 @@ const Sellers = () => {
         <div className='grid grid-cols-1 md:grid-cols-2 gap-16 items-center mb-20'>
           <div className='relative w-full h-72 md:h-96 rounded-2xl overflow-hidden shadow-xl'>
             <Image
-              src="/industries/sellers2.png"
+              src="https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/real-estate/sellers2.png"
               alt="Mortgage"
               fill
               className='object-cover rounded-2xl'

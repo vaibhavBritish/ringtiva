@@ -1,9 +1,9 @@
 services:
   ringtiva:
-    container_name: ringtiva
+    container_name: ringtiva-main
     build: .
     restart: always
     env_file:
       - .env
     ports:
-      - "3002:3002"
+      - "3000:3000"

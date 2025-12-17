@@ -38,7 +38,7 @@ const About = () => {
 
                     <div className="md:w-1/2 flex justify-center">
                         <Image
-                            src="/company/officeImage.jpg"
+                            src="https://ringtivassests.blob.core.windows.net/ringtiva-images/company/about-us/officeImage.jpg"
                             alt="Ringtiva Office"
                             width={500}
                             height={400}
@@ -51,20 +51,20 @@ const About = () => {
             
             <div className="max-w-6xl mx-auto py-14 px-4 grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
                 <div>
-                    <Image src="/company/about-icon1.svg" alt="" width={70} height={70} className="mx-auto" />
+                    <Image src="https://ringtivassests.blob.core.windows.net/ringtiva-images/company/about-us/about-icon1.svg" alt="" width={70} height={70} className="mx-auto" />
                     <p className="mt-3 font-semibold text-gray-800">Founded</p>
                     <p className="text-gray-600">August 2015</p>
                 </div>
 
                 <div>
-                    <Image src="/company/about-icon2.svg" alt="" width={70} height={70} className="mx-auto" />
+                    <Image src="https://ringtivassests.blob.core.windows.net/ringtiva-images/company/about-us/about-icon2.svg" alt="" width={70} height={70} className="mx-auto" />
                     <p className="mt-3 font-semibold text-gray-800">
                         Office in Pasadena, CA, USA.
                     </p>
                 </div>
 
                 <div>
-                    <Image src="/company/about-icon3.svg" alt="" width={70} height={70} className="mx-auto" />
+                    <Image src="https://ringtivassests.blob.core.windows.net/ringtiva-images/company/about-us/about-icon3.svg" alt="" width={70} height={70} className="mx-auto" />
                     <p className="mt-3 font-semibold text-gray-800">
                         We are mission driven, with a vision of better future
                     </p>

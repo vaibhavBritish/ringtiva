@@ -9,7 +9,7 @@ import type { AppDispatch } from "../../../../Redux/store";
 
 const Login = () => {
   const router = useRouter();
-  const searchParams = useSearchParams();
+  // const searchParams = useSearchParams();
   const dispatch = useDispatch<AppDispatch>();
 
   const [formdata, setformdata] = useState({
@@ -20,7 +20,7 @@ const Login = () => {
   const [loading, setLoading] = useState(false);
   
   // Get message from URL params if any
-  const message = searchParams?.get("message");
+  // const message = searchParams?.get("message");
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setformdata({
@@ -82,7 +82,7 @@ const Login = () => {
         <h2 className="text-2xl font-semibold text-center mb-2">Welcome Back</h2>
         <p className="text-center text-gray-600 text-sm mb-6">Login to access your dashboard</p>
 
-        {message && (
+        {/* {message && (
           <div className={`mb-4 p-3 rounded-lg text-sm ${
             message.includes("successful") || message.includes("Registration")
               ? "bg-green-100 text-green-700 border border-green-300"
@@ -90,7 +90,7 @@ const Login = () => {
           }`}>
             {decodeURIComponent(message)}
           </div>
-        )}
+        )} */}
 
         <form onSubmit={handleSubmit} className="space-y-5">
           <div className="flex flex-col">

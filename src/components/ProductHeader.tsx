@@ -25,7 +25,7 @@ const ProductHeader = () => {
 
         <div className="flex justify-center md:justify-end">
           <Image
-            src="/products/header.png"
+            src="https://ringtivassests.blob.core.windows.net/ringtiva-images/product/header.png"
             alt="product-header"
             width={500}
             height={500}

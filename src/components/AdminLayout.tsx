@@ -6,7 +6,7 @@ const AdminLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="flex h-screen bg-gray-100">
       
-      {/* Sidebar */}
+  
       <aside className="w-64 bg-gray-900 text-white flex flex-col p-6">
         <h2 className="text-2xl font-bold mb-8">Admin Panel</h2>
 
@@ -28,7 +28,6 @@ const AdminLayout = ({ children }: { children: React.ReactNode }) => {
           </button> */}
         </header>
 
-        {/* Content */}
         <main className="p-6 overflow-y-auto h-full">
           {children}
         </main>

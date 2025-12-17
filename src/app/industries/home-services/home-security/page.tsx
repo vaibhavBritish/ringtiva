@@ -17,7 +17,7 @@ const HighSecurity = () => {
     <div>
       <section className="relative w-full min-h-[90vh] flex items-center bg-linear-to-r from-[#6A4DFF] to-[#8E68FF] overflow-hidden rounded-b-3xl">
         <Image
-          src="/industries/bg-health.jpg"
+          src="https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/home-security/bg-health.jpg"
           alt="Health Insurance Banner"
           width={2000}
           height={2000}
@@ -66,7 +66,7 @@ const HighSecurity = () => {
           </div>
           <div className='px-3'>
             <Image
-              src={'/industries/homeSecurity/home-security_tgb_0.png'}
+              src={'https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/home-security/home-security_tgb_0.png'}
               alt='Home Security'
               width={450}
               height={350}
@@ -77,7 +77,7 @@ const HighSecurity = () => {
         <div className='grid md:grid-cols-2 gap-20 px-5'>
           <div className='px-3'>
             <Image
-              src={'/industries/homeSecurity/home-security_tgb_1.png'}
+              src={'https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/home-security/home-security_tgb_1.png'}
               alt='tv and internet'
               width={450}
               height={350}

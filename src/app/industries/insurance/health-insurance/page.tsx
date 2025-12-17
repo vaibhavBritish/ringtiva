@@ -20,7 +20,7 @@ const HealthInsurance = () => {
     <div className="font-[Inter]">
       <section className="relative w-full min-h-[90vh] flex items-center bg-linear-to-r from-[#6A4DFF] to-[#8E68FF] overflow-hidden">
         <Image
-          src="/industries/bg-health.jpg"
+          src="https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/health-insurance/bg-health.jpg"
           alt="Health Insurance Banner"
           width={2000}
           height={2000}
@@ -63,7 +63,7 @@ const HealthInsurance = () => {
           </div>
 
           <div className="md:w-1/3 flex justify-center">
-            <Image src="/industries/docktor.jpg" alt="doctor" width={350} height={450} className="rounded-xl shadow-xl object-cover" />
+            <Image src="https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/health-insurance/docktor.jpg" alt="doctor" width={350} height={450} className="rounded-xl shadow-xl object-cover" />
           </div>
         </div>
       </section>
@@ -89,13 +89,13 @@ const HealthInsurance = () => {
             </p>
           </div>
           <div className="md:w-1/2 flex justify-center">
-            <Image src="/industries/healthinsurance.png" alt="control" width={350} height={350} className="object-contain" />
+            <Image src="https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/health-insurance/healthInsurance.png" alt="control" width={350} height={350} className="object-contain" />
           </div>
         </div>
 
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/2 flex justify-center">
-            <Image src="/industries/team.jpg" alt="team" width={350} height={350} className="rounded-lg" />
+            <Image src="https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/health-insurance/team.jpg" alt="team" width={350} height={350} className="rounded-lg" />
           </div>
           <div className="md:w-1/2 space-y-4">
             <h1 className="text-blue-600 text-3xl font-bold">Experienced Team</h1>
@@ -115,7 +115,7 @@ const HealthInsurance = () => {
             </p>
           </div>
           <div className="md:w-1/2 flex justify-center">
-            <Image src="/industries/process.jpg" alt="process" width={350} height={350} className="object-contain" />
+            <Image src="https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/health-insurance/process.jpg" alt="process" width={350} height={350} className="object-contain" />
           </div>
         </div>
       </section>

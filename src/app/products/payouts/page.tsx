@@ -34,7 +34,7 @@ const Marketingtools = () => {
             </p>
 
               <div className="flex items-center gap-2 mt-10">
-                <Image src="/products/wire.png" width={164} height={164} alt="Wire" />
+                <Image src="https://ringtivassests.blob.core.windows.net/ringtiva-images/product/payouts/wire.png" width={164} height={164} alt="Wire" />
               </div>
           </div>
 

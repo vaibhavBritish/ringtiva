@@ -10,19 +10,19 @@ const Helpcenter = () => {
       id: 1,
       title: "FAQ's for Advertisers",
       desc: "Our answers to the most commonly asked questions.",
-      img: "/helpcenter/help-icon1.svg",
+      img: "https://ringtivassests.blob.core.windows.net/ringtiva-images/help-center/help-icon1.svg",
     },
     {
       id: 2,
       title: "FAQ's for Affiliates",
       desc: "Our answers to the most commonly asked questions.",
-      img: "/helpcenter/help-icon2.svg",
+      img: "https://ringtivassests.blob.core.windows.net/ringtiva-images/help-center/help-icon2.svg",
     },
     {
       id: 3,
       title: "Contact Support",
       desc: "Still have questions? Ask us directly, we’re open 24/7.",
-      img: "/helpcenter/help-icon3.svg",
+      img: "https://ringtivassests.blob.core.windows.net/ringtiva-images/help-center/help-icon3.svg",
     },
   ];
 

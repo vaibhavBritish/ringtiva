@@ -19,7 +19,7 @@ const FinalExpense = () => {
 
             <section className="relative w-full min-h-[90vh] flex items-center bg-linear-to-r from-[#6A4DFF] to-[#8E68FF] overflow-hidden rounded-b-3xl">
                 <Image
-                    src="/industries/bg-health.jpg"
+                    src="https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/final-expense/bg-health.jpg"
                     alt="Health Insurance Banner"
                     width={2000}
                     height={2000}
@@ -80,7 +80,7 @@ const FinalExpense = () => {
 
                     <div className='relative w-full h-72 md:h-96 rounded-2xl overflow-hidden shadow-xl'>
                         <Image
-                            src="/industries/finalExpense.png"
+                            src="https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/final-expense/finalExpense.png"
                             alt="Spend Less Medicare"
                             fill
                             className='object-cover rounded-2xl'

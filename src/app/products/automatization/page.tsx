@@ -45,13 +45,13 @@ const Automatization = () => {
                             Broker Management System</h1><p>Our team of trained brokers will call the leads provided by the affiliate, lost calls, and calls that were not consulted for one reason or another, and also make a qualified consultation with the client and connect it with the advertiser. Brokers work in all languages in which offers are presented. This service is provided completely free of charge and is a serious help in the work.</p>
                     </div>
                     <div>
-                        <Image src="/products/automatisation1.png" alt="Broker Management" width={400} height={400} className="rounded-2xl shadow-lg" />
+                        <Image src="https://ringtivassests.blob.core.windows.net/ringtiva-images/product/automatization/api.png" alt="Broker Management" width={400} height={400} className="rounded-2xl shadow-lg" />
                     </div>
                 </div>
 
                 <div className="flex justify-between py-20">
                     <div>
-                        <Image src="/products/lead-to-call.png" alt="lead-to-call" width={400} height={400} className="rounded-2xl shadow-lg" />
+                        <Image src="https://ringtivassests.blob.core.windows.net/ringtiva-images/product/automatization/lead-to-call.png" alt="lead-to-call" width={400} height={400} className="rounded-2xl shadow-lg" />
                     </div>
                     <div className="w-1/2">
                         <h2 className="text-red-500 pt-14">Lead-to-call service</h2>
@@ -69,7 +69,7 @@ const Automatization = () => {
                         <p>Create bots, that manage your advertising campaigns, work with programs, calls, leads, offers, receive statuses and track them wherever you feel comfortable: by mail, SMS, a tracker or messenger.</p>
                     </div>
                     <div>
-                        <Image src="/products/api.png" alt="api" width={400} height={400} className="rounded-2xl shadow-lg" />
+                        <Image src="https://ringtivassests.blob.core.windows.net/ringtiva-images/product/automatization/api.png" alt="api" width={400} height={400} className="rounded-2xl shadow-lg" />
                     </div>
                 </div>
 

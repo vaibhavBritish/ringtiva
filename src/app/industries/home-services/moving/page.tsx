@@ -17,7 +17,7 @@ const Moving = () => {
     <div>
       <section className="relative w-full min-h-[90vh] flex items-center bg-linear-to-r from-[#6A4DFF] to-[#8E68FF] overflow-hidden rounded-b-3xl">
         <Image
-          src="/industries/bg-health.jpg"
+          src="https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/moving/bg-health.jpg"
           alt="Health Insurance Banner"
           width={2000}
           height={2000}
@@ -66,7 +66,7 @@ const Moving = () => {
           </div>
           <div className='px-3'>
             <Image
-              src={'/moving/moving_tgb_0.png'}
+              src={'https://ringtivassests.blob.core.windows.net/ringtiva-images/industries/moving/moving_tgb_0.png'}
               alt='Moving'
               width={450}
               height={350}
