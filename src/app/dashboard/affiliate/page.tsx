@@ -3,6 +3,7 @@
 import AdminLayout from '@/components/AdminLayout'
 import React from 'react'
 import useCheckAuth from '../../../../hooks/useCheckAuth'
+import DashboardLayout from '@/components/DashboardLayout'
 
 const AffiliateDashboard = () => {
   const { user, loading } = useCheckAuth({ requireRole: 'AFFILIATE' })
@@ -21,10 +22,10 @@ const AffiliateDashboard = () => {
 
   return (
     <div>
-      <AdminLayout>
+      <DashboardLayout>
         <h1 className="text-2xl font-bold mb-4">Affiliate Dashboard</h1>
         <p className="text-gray-600">Welcome to your affiliate dashboard. Manage your campaigns and track your performance here.</p>
-      </AdminLayout>
+      </DashboardLayout>
     </div>
   )
 }

@@ -3,6 +3,7 @@
 import AdminLayout from '@/components/AdminLayout'
 import React from 'react'
 import useCheckAuth from '../../../../hooks/useCheckAuth'
+import DashboardLayout from '@/components/DashboardLayout'
 
 const AdvertiserDashboard = () => {
   const { user, loading } = useCheckAuth({ requireRole: 'ADVERTISER' })
@@ -21,9 +22,9 @@ const AdvertiserDashboard = () => {
 
   return (
     <div>
-      <AdminLayout>
+      <DashboardLayout>
         <h1 className="text-2xl font-bold mb-4">Advertiser Dashboard</h1>
-      </AdminLayout>
+      </DashboardLayout>
     </div>
   )
 }

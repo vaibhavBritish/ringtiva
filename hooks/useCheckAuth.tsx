@@ -1,83 +1,90 @@
 import { useRouter } from 'next/navigation'
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 interface User {
-    id: string,
-    email: string,
-    isAdmin: boolean,
-    userType?: string
+  id: string
+  email: string
+  isAdmin: boolean
+  userType?: 'AFFILIATE' | 'ADVERTISER'
 }
 
 interface UseCheckAuthOptions {
-    requireAdmin?: boolean;
-    requireRole?: 'AFFILIATE' | 'ADVERTISER';
-    redirectTo?: string;
+  requireAdmin?: boolean
+  requireRole?: 'AFFILIATE' | 'ADVERTISER'
+  redirectTo?: string
 }
 
 const useCheckAuth = (options: UseCheckAuthOptions = {}) => {
-    const { requireAdmin = false, requireRole, redirectTo } = options;
-    const router = useRouter();
-    const [user, setuser] = useState<User | null>(null)
-    const [loading, setloading] = useState(true)
+  const { requireAdmin = false, requireRole, redirectTo } = options
+  const router = useRouter()
 
-    useEffect(() => {
-        const checkAuth = async () => {
-            try {
-                const res = await fetch("/api/auth/me", { credentials: "include" });
-                const data = await res.json();
+  const [user, setUser] = useState<User | null>(null)
+  const [loading, setLoading] = useState(true)
 
-                if (!data.user) {
-                    router.push("/auth/login?message=Please login first");
-                    return;
-                }
+  useEffect(() => {
+    const checkAuth = async () => {
+      try {
+        const res = await fetch('/api/auth/me', {
+          credentials: 'include',
+        })
 
-                
-                if (requireAdmin && !data.user.isAdmin) {
-                    router.push("/auth/login?message=Admin access required");
-                    return;
-                }
-
-                
-                if (requireRole && data.user.userType !== requireRole) {
-                    
-                    const currentUserType = data.user.userType;
-                    if (currentUserType === "AFFILIATE") {
-                        router.push("/dashboard/affiliate");
-                    } else if (currentUserType === "ADVERTISER") {
-                        router.push("/dashboard/advertiser");
-                    } else if (data.user.isAdmin) {
-                        router.push("/admin");
-                    } else {
-                        
-                        const roleName = requireRole === 'AFFILIATE' ? 'Affiliate' : 'Advertiser';
-                        router.push(redirectTo || "/auth/login?message=" + encodeURIComponent(`${roleName} access required`));
-                    }
-                    return;
-                }
-
-               
-                if (!requireAdmin && !requireRole && data.user.userType) {
-                    const userType = data.user.userType;
-                    if (userType === "AFFILIATE") {
-                        router.push("/dashboard/affiliate");
-                    } else if (userType === "ADVERTISER") {
-                        router.push("/dashboard/advertiser");
-                    }
-                }
-
-                setuser(data.user);
-            } catch (error) {
-                console.log("Auth failed error", error);
-                router.push("/auth/login?message=Authentication failed")
-            } finally{
-                setloading(false)
-            }
+        if (!res.ok) {
+          throw new Error('Unauthorized')
         }
-        checkAuth();
-    }, [router, requireAdmin, requireRole, redirectTo])
 
+        const data = await res.json()
+        const currentUser: User | null = data?.user ?? null
 
-    return {user, loading}
+        if (!currentUser) {
+          router.replace('/auth/login?message=Please login first')
+          return
+        }
+
+        // 🔐 Admin check
+        if (requireAdmin && !currentUser.isAdmin) {
+          router.replace('/auth/login?message=Admin access required')
+          return
+        }
+
+        // 🎭 Role check
+        if (requireRole && currentUser.userType !== requireRole) {
+          if (currentUser.isAdmin) {
+            router.replace('/admin')
+            return
+          }
+
+          if (currentUser.userType === 'AFFILIATE') {
+            router.replace('/dashboard/affiliate')
+            return
+          }
+
+          if (currentUser.userType === 'ADVERTISER') {
+            router.replace('/dashboard/advertiser')
+            return
+          }
+
+          const roleName = requireRole === 'AFFILIATE' ? 'Affiliate' : 'Advertiser'
+          router.replace(
+            redirectTo ||
+              `/auth/login?message=${encodeURIComponent(`${roleName} access required`)}`
+          )
+          return
+        }
+
+        // ✅ All checks passed
+        setUser(currentUser)
+      } catch (error) {
+        console.error('Auth check failed:', error)
+        router.replace('/auth/login?message=Authentication failed')
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    checkAuth()
+  }, [requireAdmin, requireRole, redirectTo, router])
+
+  return { user, loading }
 }
 
 export default useCheckAuth
