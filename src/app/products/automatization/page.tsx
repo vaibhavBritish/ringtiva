@@ -18,10 +18,6 @@ const Automatization = () => {
                         Build deeper connections, more efficiently
                     </p>
 
-                    {/* <p className="text-gray-600 max-w-2xl mx-auto mt-4 text-lg">
-                        Unlock powerful marketing features designed to boost visibility,
-                        engage high-intent prospects, and grow your conversions effortlessly.
-                    </p> */}
                 </div>
 
 

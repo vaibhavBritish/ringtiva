@@ -76,7 +76,6 @@ const AddBlogs = () => {
     }
   };
 
-  // Loading state
   if (loading) {
     return (
       <div className="flex items-center justify-center h-screen">
@@ -97,48 +96,44 @@ const AddBlogs = () => {
 
         <div className="flex flex-col gap-6">
 
-          {/* TITLE */}
-          <div>
+          <div className="animate-fadeIn">
             <label className="text-gray-700 font-medium">Blog Title</label>
             <input
               name="title"
               placeholder="Enter blog title"
-              className="border p-3 rounded-xl w-full mt-1 focus:ring-2 focus:ring-green-500 focus:outline-none"
+              className="border p-3 rounded-xl w-full mt-1 focus:ring-2 focus:ring-green-500 focus:outline-none transition-all duration-300 focus:scale-105"
               value={form.title}
               onChange={handleChange}
             />
           </div>
 
-          {/* DESCRIPTION */}
-          <div>
+          <div className="animate-fadeIn" style={{ animationDelay: "0.1s" }}>
             <label className="text-gray-700 font-medium">Short Description</label>
             <input
               name="description"
               placeholder="Enter blog description"
-              className="border p-3 rounded-xl w-full mt-1 focus:ring-2 focus:ring-green-500 focus:outline-none"
+              className="border p-3 rounded-xl w-full mt-1 focus:ring-2 focus:ring-green-500 focus:outline-none transition-all duration-300 focus:scale-105"
               value={form.description}
               onChange={handleChange}
             />
           </div>
 
-          {/* CONTENT */}
-          <div>
+          <div className="animate-fadeIn" style={{ animationDelay: "0.2s" }}>
             <label className="text-gray-700 font-medium">Blog Content</label>
             <textarea
               name="content"
               placeholder="Write the full blog content here..."
               rows={7}
-              className="border p-3 rounded-xl w-full mt-1 focus:ring-2 focus:ring-green-500 focus:outline-none"
+              className="border p-3 rounded-xl w-full mt-1 focus:ring-2 focus:ring-green-500 focus:outline-none transition-all duration-300 focus:scale-105"
               value={form.content}
               onChange={handleChange}
             />
           </div>
 
-          {/* IMAGE UPLOAD */}
-          <div>
+          <div className="animate-fadeIn" style={{ animationDelay: "0.3s" }}>
             <label className="text-gray-700 font-medium">Upload Cover Image</label>
 
-            <div className="mt-2 border-2 border-dashed rounded-xl p-6 text-center hover:border-green-500 transition cursor-pointer">
+            <div className="mt-2 border-2 border-dashed rounded-xl p-6 text-center hover:border-green-500 transition-all duration-300 cursor-pointer transform hover:scale-105">
               <input type="file" onChange={handleImageUpload} className="w-full" />
               <p className="text-sm text-gray-500 mt-2">
                 {uploading ? "Uploading..." : "Choose an image to upload"}
@@ -149,16 +144,16 @@ const AddBlogs = () => {
               <img
                 src={form.image}
                 alt="Preview"
-                className="w-40 mt-3 rounded-xl border shadow-sm"
+                className="w-40 mt-3 rounded-xl border shadow-sm transform transition-all duration-300 hover:scale-110"
               />
             )}
           </div>
 
-          {/* SUBMIT BUTTON */}
           <button
             onClick={handleSubmit}
             disabled={submitting}
-            className="bg-green-600 text-white px-6 py-3 rounded-xl text-lg font-semibold hover:bg-green-700 transition disabled:opacity-60"
+            className="bg-green-600 text-white px-6 py-3 rounded-xl text-lg font-semibold hover:bg-green-700 transition-all duration-300 transform hover:scale-105 hover:shadow-lg disabled:opacity-60 animate-fadeIn"
+            style={{ animationDelay: "0.4s" }}
           >
             {submitting ? "Submitting..." : "Publish Blog"}
           </button>

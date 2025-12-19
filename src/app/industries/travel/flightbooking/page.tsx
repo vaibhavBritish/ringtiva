@@ -11,7 +11,6 @@ const Flightbooking = () => {
     { id: 4, desc: "No setup cost or long term commitment" },
     { id: 5, desc: "17minutes average call duration from prospects" },
     { id: 6, desc: "Free tracking tools to monitor your campaign" },
-    // { id: 7, desc: "100% customer satisfaction" },
   ]
   return (
     <div>

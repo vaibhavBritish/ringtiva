@@ -7,13 +7,13 @@ const AdminLayout = ({ children }: { children: React.ReactNode }) => {
     <div className="flex h-screen bg-gray-100">
       
   
-      <aside className="w-64 bg-gray-900 text-white flex flex-col p-6">
+      <aside className="w-64 bg-gray-900 text-white flex flex-col p-6 animate-slideInLeft">
         <h2 className="text-2xl font-bold mb-8">Admin Panel</h2>
 
         <nav className="flex flex-col gap-4">
-          <Link href="/admin" className="hover:text-gray-300">Dashboard</Link>
-          <Link href="/admin/blogs" className="hover:text-gray-300">Blogs</Link>
-          <Link href="/admin/users" className="hover:text-gray-300">Users</Link>
+          <Link href="/admin" className="hover:text-gray-300 transition-all duration-300 transform hover:translate-x-2">Dashboard</Link>
+          <Link href="/admin/blogs" className="hover:text-gray-300 transition-all duration-300 transform hover:translate-x-2">Blogs</Link>
+          <Link href="/admin/users" className="hover:text-gray-300 transition-all duration-300 transform hover:translate-x-2">Users</Link>
         </nav>
       </aside>
 
@@ -21,11 +21,8 @@ const AdminLayout = ({ children }: { children: React.ReactNode }) => {
       <div className="flex-1 flex flex-col">
 
 
-        <header className="bg-white shadow p-4 flex justify-between items-center">
+        <header className="bg-white shadow p-4 flex justify-between items-center animate-fadeInDown">
           <h1 className="text-xl font-semibold">Admin Dashboard</h1>
-          {/* <button className="px-4 py-2 bg-red-600 text-white rounded">
-            Logout
-          </button> */}
         </header>
 
         <main className="p-6 overflow-y-auto h-full">

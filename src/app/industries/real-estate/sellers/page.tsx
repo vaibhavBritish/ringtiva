@@ -12,7 +12,6 @@ const Sellers = () => {
     { id: 4, desc: "Pay for prospects that matter to your business only" },
     { id: 5, desc: "No setup cost, minimum purchase, or long term commitment" },
     { id: 6, desc: "100% customer satisfaction." },
-    // { id: 7, desc: "100% Exclusive - zero competition" },
 
   ]
   return (
@@ -110,7 +109,6 @@ const Sellers = () => {
 
 
         <div className='space-y-6'>
-          {/* <h1 className='text-3xl md:text-4xl font-bold text-blue-600'>Your trusted source for quality buyer leads</h1> */}
           <p className='text-lg md:text-xl leading-relaxed'>
            Also, you can monitor your campaign and track the quality of inbound calls you are getting from prospects. Furthermore, we will only charge you for performance; we’ll never bill you for clients that are not interested in your business.
           </p>

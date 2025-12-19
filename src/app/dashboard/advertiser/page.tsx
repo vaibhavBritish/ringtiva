@@ -41,17 +41,16 @@ const AdvertiserDashboard = () => {
 
   return (
     <DashboardLayout>
-      <div className="flex justify-between items-center mb-6">
+      <div className="flex justify-between items-center mb-6 animate-fadeInDown">
         <h1 className="text-2xl font-bold">Advertiser Dashboard</h1>
         <Link href="/dashboard/advertiser/addproduct">
-          <button className="mt-4 bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700">
+          <button className="mt-4 bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
             Add Product
           </button>
         </Link>
       </div>
 
-
-      <div className="overflow-x-auto bg-white rounded-xl shadow border">
+      <div className="overflow-x-auto bg-white rounded-xl shadow border animate-fadeIn">
         <table className="min-w-full text-sm text-left">
           <thead className="bg-gray-100 text-gray-700">
             <tr>
@@ -64,11 +63,12 @@ const AdvertiserDashboard = () => {
             </tr>
           </thead>
           <tbody>
-            {leads.map((lead) => (
+            {leads.map((lead, index) => (
               <tr
                 key={lead.id}
                 onClick={() => setSelectedLead(lead)}
-                className="border-t hover:bg-gray-50 cursor-pointer"
+                className="border-t hover:bg-gray-50 cursor-pointer transition-all duration-300 transform hover:scale-[1.01]"
+                style={{ animationDelay: `${index * 0.05}s` }}
               >
                 <td className="px-4 py-3 font-medium">{lead.fullName}</td>
                 <td className="px-4 py-3">{lead.category}</td>
@@ -84,30 +84,24 @@ const AdvertiserDashboard = () => {
         </table>
 
         {leads.length === 0 && (
-          <div className="flex flex-col items-center justify-center p-10 text-center">
+          <div className="flex flex-col items-center justify-center p-10 text-center animate-fadeInUp">
             <p className="text-lg font-semibold text-gray-700">
               No leads found
             </p>
             <p className="text-sm text-gray-500 mt-1">
               Please add a product to start receiving leads.
             </p>
-
-            {/* <Link href="/dashboard/advertiser/addproduct">
-              <button className="mt-4 bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700">
-                Add Product
-              </button>
-            </Link> */}
           </div>
         )}
 
       </div>
 
       {selectedLead && (
-        <div className="fixed inset-0 bg-black/40 flex items-center justify-center z-50">
-          <div className="bg-white rounded-xl w-[80%] max-w-2xl p-6 relative">
+        <div className="fixed inset-0 bg-black/40 flex items-center justify-center z-50 animate-fadeIn">
+          <div className="bg-white rounded-xl w-[80%] max-w-2xl p-6 relative animate-scaleIn transform transition-all duration-300">
             <button
               onClick={() => setSelectedLead(null)}
-              className="absolute top-3 right-4 cursor-pointer text-gray-500 text-xl"
+              className="absolute top-3 right-4 cursor-pointer text-gray-500 text-xl transition-all duration-300 hover:text-red-600 hover:scale-110"
             >
               ✕
             </button>
@@ -137,7 +131,7 @@ const AdvertiserDashboard = () => {
             </div>
 
             {selectedLead.imageUrl && (
-              <div className="mt-4">
+              <div className="mt-4 transform transition-all duration-300 hover:scale-105">
                 <p className="font-semibold mb-2">Image</p>
                 <img
                   src={selectedLead.imageUrl}

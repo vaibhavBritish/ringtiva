@@ -18,23 +18,23 @@ const Faq = () => {
     return (
         <div>
             <section className="py-20 max-w-5xl mx-auto px-6 md:px-10">
-                <h2 className="text-3xl font-bold text-blue-600 text-center mb-10">Frequently Asked Questions</h2>
+                <h2 className="text-3xl font-bold text-blue-600 text-center mb-10 animate-fadeInUp">Frequently Asked Questions</h2>
 
                 <div className="space-y-4">
                     {faqs.map((item, index) => (
-                        <div key={index} className="border border-gray-200 rounded-xl bg-white shadow-sm transition">
+                        <div key={index} className={`border border-gray-200 rounded-xl bg-white shadow-sm transition-all duration-300 hover:shadow-lg hover:scale-[1.02] transform ${index % 2 === 0 ? 'animate-slideInLeft' : 'animate-slideInRight'}`} style={{ animationDelay: `${index * 0.1}s` }}>
                             <button
                                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
-                                className="w-full flex justify-between items-center text-left px-6 py-4 text-lg font-medium text-gray-800"
+                                className="w-full flex justify-between items-center text-left px-6 py-4 text-lg font-medium text-gray-800 transition-colors duration-300 hover:text-blue-600"
                             >
                                 {item.q}
                                 <FiChevronDown
-                                    className={`text-blue-600 text-xl transition-transform ${openIndex === index ? "rotate-180" : ""}`}
+                                    className={`text-blue-600 text-xl transition-transform duration-300 ${openIndex === index ? "rotate-180" : ""}`}
                                 />
                             </button>
 
-                            <div className={`overflow-hidden transition-all duration-300 ${openIndex === index ? "max-h-40" : "max-h-0"}`}>
-                                <div className="px-6 py-4 text-gray-600 text-base border-t">{item.a}</div>
+                            <div className={`overflow-hidden transition-all duration-500 ease-in-out ${openIndex === index ? "max-h-40 opacity-100" : "max-h-0 opacity-0"}`}>
+                                <div className="px-6 py-4 text-gray-600 text-base border-t transform transition-all duration-300">{item.a}</div>
                             </div>
                         </div>
                     ))}

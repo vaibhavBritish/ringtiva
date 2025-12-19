@@ -48,7 +48,6 @@ export async function PUT(request: NextRequest, context: { params: Promise<{ id:
 
         const form = await request.formData();
 
-        // Extract text fields
         const countryRegion = form.get("countryRegion") as string | null;
         const stateProvince = form.get("stateProvince") as string | null;
         const city = form.get("city") as string | null;
@@ -57,18 +56,16 @@ export async function PUT(request: NextRequest, context: { params: Promise<{ id:
         const subCategory = form.get("subCategory") as string | null;
         const fullName = form.get("fullName") as string | null;
         const offerType = form.get("offerType") as string | null;
-        const payouts = Number(form.get("payouts"));     // FLOAT
+        const payouts = Number(form.get("payouts"));
         const isMerchantAllowedToRefuseLeads = String(form.get("isMerchantAllowedToRefuseLeads")) === "true";
-        const LeadsLimit = Number(form.get("LeadsLimit")); // INT
+        const LeadsLimit = Number(form.get("LeadsLimit"));
         const materialModeration = form.get("materialModeration") as string | null;
         const tools = form.get("tools") as string | null;
 
-        // File field
         const imageFile = form.get("imageUrl") as File | null;
 
         let uploadedImageUrl: string | null = null;
 
-        // Upload only if new image is sent
         if (imageFile && imageFile.size > 0) {
             const bytes = await imageFile.arrayBuffer();
             const buffer = Buffer.from(bytes);
@@ -80,8 +77,6 @@ export async function PUT(request: NextRequest, context: { params: Promise<{ id:
 
             uploadedImageUrl = uploadRes.url;
         }
-
-        // Build update object based on your schema
         const updateData: any = {
             countryRegion,
             stateProvince,

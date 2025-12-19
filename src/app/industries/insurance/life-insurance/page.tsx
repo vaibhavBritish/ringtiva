@@ -121,12 +121,6 @@ const LifeInsurance = () => {
                 <h1 className="text-3xl font-bold text-blue-600">
                     Why us?
                 </h1>
-{/* 
-                <p className="text-gray-600 mt-4 text-lg leading-relaxed">
-                    We are renowned for providing highly-converting prospects at competitive rates.
-                    We can work with your budget to deliver top-notch services that meet your needs.
-                    We are the best in the industry for the following reasons:
-                </p> */}
 
                 <ul className="mt-6 space-y-3">
                     {whyUs.map((item) => (
@@ -141,9 +135,6 @@ const LifeInsurance = () => {
                 </ul>
             </section>
 
-            {/* <section className='max-w-6xl mx-auto px-10 py-10'>
-                <Faq/>
-            </section> */}
             
             <section className='py-10'>
                 <Leadgeneration/>

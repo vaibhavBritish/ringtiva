@@ -120,7 +120,6 @@ const HealthInsurance = () => {
         </div>
       </section>
 
-      {/* FAQ */}
       <section className="py-20 max-w-5xl mx-auto px-6 md:px-10">
         <h2 className="text-3xl font-bold text-blue-600 text-center mb-10">Frequently Asked Questions</h2>
 
