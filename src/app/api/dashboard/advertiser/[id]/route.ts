@@ -11,7 +11,7 @@ const imagekit = new ImageKit({
 export async function GET(request: NextRequest, context: { params: Promise<{id:string}>}){
     try {
         const {id} = await context.params;
-        const lead = await prisma.leads.findUnique({
+        const lead = await prisma.lead.findUnique({
             where:{
                 id: id
             }
@@ -26,7 +26,7 @@ export async function GET(request: NextRequest, context: { params: Promise<{id:s
 export async function DELETE(request:NextRequest, context : {params : Promise<{id:string}>}){
     try {
         const {id} = await context.params;
-        const deleteLeadById = await prisma.leads.delete({
+        const deleteLeadById = await prisma.lead.delete({
             where:{
                 id: id
             }
@@ -102,7 +102,7 @@ export async function PUT(request: NextRequest, context: { params: Promise<{ id:
             updateData.imageUrl = uploadedImageUrl;
         }
 
-        const updatedLead = await prisma.leads.update({
+        const updatedLead = await prisma.lead.update({
             where: { id },
             data: updateData,
         });

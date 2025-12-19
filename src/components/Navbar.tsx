@@ -128,6 +128,13 @@ const Navbar = () => {
               </>
             ) : (
               <>
+                {user.userType && (
+                  <Link href={user.userType === "ADVERTISER" ? "/dashboard/advertiser" : "/dashboard/affiliate"}>
+                    <button className="px-4 py-2 rounded-xl bg-blue-700 text-white font-semibold hover:bg-blue-800 transition cursor-pointer">
+                      Dashboard
+                    </button>
+                  </Link>
+                )}
                 <span className="text-blue-700 font-medium">{user.email}</span>
                 <button
                   onClick={handleLogout}
@@ -160,6 +167,11 @@ const Navbar = () => {
               </>
             ) : (
               <>
+                {user.userType && (
+                  <li>
+                    <Link href={user.userType === "ADVERTISER" ? "/dashboard/advertiser" : "/dashboard/affiliate"} className="block py-1 text-blue-700 font-medium">Dashboard</Link>
+                  </li>
+                )}
                 <li className="text-blue-700">{user.email}</li>
                 <li>
                   <button onClick={handleLogout} className="text-red-600">Logout</button>
