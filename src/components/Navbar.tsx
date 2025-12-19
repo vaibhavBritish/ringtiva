@@ -152,7 +152,7 @@ const Navbar = () => {
         </nav>
 
         <div
-          className={`md:hidden transition-all duration-300 overflow-hidden ${open ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
+          className={`md:hidden transition-all duration-300 overflow-hidden ${open ? "max-h-125 opacity-100" : "max-h-0 opacity-0"
             }`}
         >
           <ul className="mt-4 space-y-5 text-gray-900 font-medium">
